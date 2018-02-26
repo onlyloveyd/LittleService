@@ -1,0 +1,13 @@
+server:
+  port: @server.port@
+spring:
+  application:
+    name: @application.name@
+eureka:
+  instance:
+    hostname: @server.host@
+  client:
+      registerWithEureka: false
+      fetchRegistry: false
+      serviceUrl:
+        defaultZone: http://@server.host@:@server.port@/eureka/
