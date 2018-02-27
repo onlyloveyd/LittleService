@@ -1,7 +1,8 @@
-package cn.onlyloveyd.jdbctemplatecenter.service
+package cn.onlyloveyd.jdbctemplatecenter.service.impl
 
 import cn.onlyloveyd.jdbctemplatecenter.entity.Account
 import cn.onlyloveyd.jdbctemplatecenter.dao.IAccountDAO
+import cn.onlyloveyd.jdbctemplatecenter.service.IAccountService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

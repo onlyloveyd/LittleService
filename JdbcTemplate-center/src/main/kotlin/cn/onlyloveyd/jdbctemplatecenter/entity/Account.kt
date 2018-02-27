@@ -8,7 +8,7 @@ package cn.onlyloveyd.jdbctemplatecenter.entity
  * 博   客: https://onlyloveyd.cn
  * 描   述：
  */
-class Account() {
+class Account {
     var id: Int = 0
     var name: String? = null
     var money: Double = 0.toDouble()

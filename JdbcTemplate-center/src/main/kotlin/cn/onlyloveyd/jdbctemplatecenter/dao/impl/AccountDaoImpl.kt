@@ -1,5 +1,6 @@
-package cn.onlyloveyd.jdbctemplatecenter.dao
+package cn.onlyloveyd.jdbctemplatecenter.dao.impl
 
+import cn.onlyloveyd.jdbctemplatecenter.dao.IAccountDAO
 import cn.onlyloveyd.jdbctemplatecenter.entity.Account
 import org.springframework.jdbc.core.BeanPropertyRowMapper
 import org.springframework.jdbc.core.JdbcTemplate
