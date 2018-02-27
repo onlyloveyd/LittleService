@@ -10,6 +10,7 @@
         <module name="eureka-server" />
         <module name="JdbcTemplate-center" />
         <module name="LittleService" />
+        <module name="spring-mybaits" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="JdbcTemplate-center" target="1.8" />
       <module name="LittleService" target="1.5" />
+      <module name="spring-mybaits" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

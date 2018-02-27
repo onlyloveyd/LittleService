@@ -75,6 +75,7 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/data-center/pom.xml" />
         <option value="$PROJECT_DIR$/JdbcTemplate-center/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mybaits/pom.xml" />
       </list>
     </option>
   </component>
