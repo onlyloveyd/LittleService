@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JdbcTemplate-center/JdbcTemplate-center.iml" filepath="$PROJECT_DIR$/JdbcTemplate-center/JdbcTemplate-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/LittleService.iml" filepath="$PROJECT_DIR$/LittleService.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-center/data-center.iml" filepath="$PROJECT_DIR$/data-center/data-center.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data-center/data-center.iml" filepath="$PROJECT_DIR$/data-center/data-center.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
     </modules>
   </component>

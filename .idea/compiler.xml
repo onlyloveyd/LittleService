@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="data-center" />
         <module name="eureka-server" />
+        <module name="JdbcTemplate-center" />
         <module name="LittleService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="data-center" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="JdbcTemplate-center" target="1.8" />
       <module name="LittleService" target="1.5" />
     </bytecodeTargetLevel>
   </component>
