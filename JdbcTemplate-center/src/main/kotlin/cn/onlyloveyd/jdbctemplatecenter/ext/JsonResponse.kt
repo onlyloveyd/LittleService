@@ -10,8 +10,8 @@ package cn.onlyloveyd.datacenter.ext
  */
 class JsonResponse<T> {
     companion object {
-        val CODE_ERROR = -1
-        val CODE_OK = 0
+        private val CODE_ERROR = -1
+        private val CODE_OK = 0
 
         fun success(data:Any):JsonResponse<Any> {
             val response = JsonResponse<Any>()
