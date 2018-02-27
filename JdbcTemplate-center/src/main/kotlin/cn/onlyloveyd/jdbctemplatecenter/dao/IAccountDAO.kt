@@ -13,11 +13,11 @@ import cn.onlyloveyd.jdbctemplatecenter.entity.Account
  * 描   述：
  */
 interface IAccountDAO {
-    fun add(account: Account): Int
+    fun add(account: Account): Int?
 
-    fun update(account: Account): Int
+    fun update(account: Account): Int?
 
-    fun delete(id: Int): Int
+    fun delete(id: Int): Int?
 
     fun findAccountById(id: Int): Account?
 

@@ -22,19 +22,19 @@ class AccountDaoImpl : IAccountDAO {
     @Autowired
     private val jdbcTemplate: JdbcTemplate? = null
 
-    override fun add(account: Account): Int {
-        return jdbcTemplate!!.update("insert into account(name, money) values(?, ?)",
+    override fun add(account: Account): Int? {
+        return jdbcTemplate?.update("insert into account(name, money) values(?, ?)",
                 account.name, account.money)
 
     }
 
-    override fun update(account: Account): Int {
-        return jdbcTemplate!!.update("UPDATE  account SET NAME=? ,money=? WHERE id=?",
+    override fun update(account: Account): Int? {
+        return jdbcTemplate?.update("UPDATE  account SET NAME=? ,money=? WHERE id=?",
                 account.name, account.money, account.id)
     }
 
-    override fun delete(id: Int): Int {
-        return jdbcTemplate!!.update("DELETE from TABLE account where id=?", id)
+    override fun delete(id: Int): Int? {
+        return jdbcTemplate?.update("DELETE from TABLE account where id=?", id)
     }
 
     override fun findAccountById(id: Int): Account? {
