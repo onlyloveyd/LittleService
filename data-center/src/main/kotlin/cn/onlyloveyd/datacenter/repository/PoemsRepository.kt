@@ -1,14 +1,14 @@
 package cn.onlyloveyd.datacenter.repository
 
-import cn.onlyloveyd.datacenter.entity.User
+import cn.onlyloveyd.datacenter.entity.Poems
 import org.springframework.data.jpa.repository.JpaRepository
 
 /**
- * 文 件 名: UserRepository
+ * 文 件 名: PoemsRepository
  * 创 建 人: 易冬
- * 创建日期: 2018/2/26 16:32
+ * 创建日期: 2018/3/6 10:58
  * 邮   箱: onlyloveyd@gmail.com
  * 博   客: https://onlyloveyd.cn
  * 描   述：
  */
-interface UserRepository:JpaRepository<User, Int>
+interface PoemsRepository:JpaRepository<Poems, Int>

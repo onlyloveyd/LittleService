@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RestController
  * 描   述：
  */
 @RestController
-@RequestMapping(path = ["/author"])
+@RequestMapping("/author")
 class AuthorController {
 
     @Value("\${author.name}")
